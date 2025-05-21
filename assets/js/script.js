@@ -11,7 +11,7 @@ const loader = document.querySelector('.wrapper-loader');
 window.addEventListener('scroll', loadOnScroll);
 
 window.addEventListener('load', async () => {
-    let endpoint = `https://pokeapi.co/api/v2/pokemon?limit=10000&offset=0`;
+    let endpoint = `https://pokeapi.co/api/v2/pokemon?limit=100&offset=0`;
 
     await createCards(endpoint);
 
